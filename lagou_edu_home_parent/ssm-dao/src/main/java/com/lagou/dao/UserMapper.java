@@ -60,4 +60,6 @@ public interface UserMapper {
      * 根据ID查询用户信息
      * */
     User findUserById(@Param("phone") String phone);
+    
+    User findUserById2(@Param("phone") String phone);
 }
