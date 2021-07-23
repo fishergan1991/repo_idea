@@ -9,4 +9,9 @@ package com.lagou.controller;
  */
 
 public class Test {
+
+    public void add(){
+
+    }
+
 }
