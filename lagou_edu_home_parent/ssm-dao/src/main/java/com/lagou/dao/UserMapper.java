@@ -62,9 +62,14 @@ public interface UserMapper {
     User findUserById(@Param("phone") String phone);
     
     User findUserById2(@Param("phone") String phone);
-    
+
+    void test01();
+    void test02();
+    void test03();
+
+
     void test011();
     void test022();
     void test033();
-    
+
 }
